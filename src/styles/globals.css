@@ -9,11 +9,6 @@ body {
   margin: 0;
 }
 
-.content {
-  background: url("/../assets/images/background.png");
-  background-attachment: fixed;
-}
-
 .section {
   height: 100vh;
   display: flex;

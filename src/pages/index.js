@@ -4,6 +4,7 @@ import DateSection from '../components/dateSection/DateSection'
 import News from '../components/news/News'
 import Place from '../components/place/Place'
 import MoreInfo from '../components/moreInfo/MoreInfo'
+import styles from "../styles/index.module.css"
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <main>
         <Banner />
-        <section className="content">
+        <section className={styles.content}>
           <News />
           <DateSection />
           <Place />
