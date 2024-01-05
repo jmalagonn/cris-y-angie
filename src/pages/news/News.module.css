@@ -1,0 +1,13 @@
+.news {
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.collage {
+    width: auto;
+    max-height: 70vh;
+}

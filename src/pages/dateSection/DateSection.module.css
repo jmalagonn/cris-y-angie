@@ -1,0 +1,34 @@
+.title {
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+.main {
+    margin-bottom: 5rem;
+}
+
+.calendar {
+    width: 6rem;
+    height: 6rem;
+}
+
+.countDown {
+    display: flex;
+}
+
+.countDown div {
+    margin: 0 2rem;
+}
+
+.countDown div .number {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.countDown div .label {
+    font-size: 1rem;
+    text-align: center;
+}

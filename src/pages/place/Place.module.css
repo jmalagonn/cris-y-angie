@@ -1,0 +1,16 @@
+.subtitle {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.city{
+    font-size: 2rem;
+    margin-top: .5rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.icon {
+    height: 12rem;
+    width: 12rem;
+}
