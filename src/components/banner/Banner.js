@@ -1,6 +1,6 @@
 import styles from "./Banner.module.css";
 import Image from "next/image";
-import logoBanner from "@/assets/images/logo-banner.svg";
+import logoBanner from "../../assets/images/logo-banner.svg";
 
 export const Banner = () => {
     return (

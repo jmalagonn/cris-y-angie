@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Banner from './banner/Banner'
-import DateSection from './dateSection/DateSection'
-import News from './news/News'
-import { Place } from './place/Place'
-import MoreInfo from './moreInfo/MoreInfo'
+import Banner from '../components/banner/Banner'
+import DateSection from '../components/dateSection/DateSection'
+import News from '../components/news/News'
+import Place from '../components/place/Place'
+import MoreInfo from '../components/moreInfo/MoreInfo'
 
 export default function Home() {
   return (
