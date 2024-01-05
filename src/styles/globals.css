@@ -10,7 +10,7 @@ body {
 }
 
 .content {
-  background: url("../assets/images/background.png");
+  background: url("/../assets/images/background.png");
   background-attachment: fixed;
 }
 
