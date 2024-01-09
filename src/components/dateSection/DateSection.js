@@ -32,7 +32,7 @@ export const DateSection = () => {
     <section id="save-the-date" className="section">
       <h1 className={`${styles.title} ${styles.main}`}>Fecha</h1>
       <Image src={calendar} alt="calendar" className={styles.calendar} />
-      <h1 className={styles.title}>23 de marzo de 2024</h1>
+      <h1 className={styles.subtitle}>23 de marzo de 2024</h1>
       <div className={styles.countDown}>
         <div>
           <p className={styles.number}>{getDays()}</p>

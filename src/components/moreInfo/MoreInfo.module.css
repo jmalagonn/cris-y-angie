@@ -24,6 +24,40 @@
     align-items: center;
 }
 
-.p {
+.textInfo {
+    min-width: 100%;
+    margin-top: 1rem;
+}
+
+.textInfo .p {
     font-size: 1.5rem;
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .row div {
+        width: 100%;
+    }
+
+    .sectionTitle {
+        font-size: 4rem !important;
+    }
+
+    .textInfo .p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .specialText {
+        font-size: 3rem;
+    }
 }

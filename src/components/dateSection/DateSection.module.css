@@ -1,4 +1,5 @@
-.title {
+.title,
+.subtitle {
     font-size: 5rem;
     margin: 1rem 0;
 }
@@ -31,4 +32,26 @@
 .countDown div .label {
     font-size: 1rem;
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    .main {
+        margin-bottom: 4rem;
+    }
+    
+    .title {
+        font-size: 4rem;
+    }
+
+    .subtitle {
+        font-size: 2.25rem;
+    }
+
+    .countDown div {
+        margin: 0 1rem;
+    }
+
+    .countDown div .number {
+        font-size: 3rem;
+    }
 }

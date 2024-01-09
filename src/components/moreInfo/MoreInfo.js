@@ -4,25 +4,30 @@ import giftIcon from "@/assets/images/regalo.svg";
 import styles from "./MoreInfo.module.css";
 
 export const MoreInfo = () => {
-    return (
-        <section className={`${styles.spaceAround} section`}>
-            <div className={styles.container}>
-                <div className={styles.row}>
-                    <div>
-                        <h1 className={`${styles.sectionTitle} title`}>Dress Code</h1>
-                        <Image src={suitIcon} alt="traje" className="icon" />
-                        <p className={styles.p}>Lorem Ipsum</p>
-                    </div>
-                    <div>
-                        <h1 className={`${styles.sectionTitle} title`}>Regalo</h1>
-                        <Image src={giftIcon} alt="regalo" className="icon" />
-                        <p className={styles.p}>Lluvia de sobres</p>
-                    </div>
-                </div>
+  return (
+    <section className={`${styles.spaceAround} section`}>
+      <div className={styles.container}>
+        <div className={styles.row}>
+          <div>
+            <h1 className={`${styles.sectionTitle} title`}>Dress Code</h1>
+            <Image src={suitIcon} alt="traje" className="icon" />
+            <div className={styles.textInfo}>
+              <p className={styles.p}>Hombres: traje formal y tenis blancos.</p>
+              <p className={styles.p}>Mujeres, vestido de un solo tono.</p>
             </div>
-            <h1 className="title special-font">¡Los esperamos!</h1>
-        </section>
-    );
-}
+          </div>
+          <div>
+            <h1 className={`${styles.sectionTitle} title`}>Regalo</h1>
+            <Image src={giftIcon} alt="regalo" className="icon" />
+            <div className={styles.textInfo}>
+              <p className={styles.p}>Lluvia de sobres</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 className={`${styles.specialText} title special-font`}>¡Los esperamos!</h1>
+    </section>
+  );
+};
 
 export default MoreInfo;

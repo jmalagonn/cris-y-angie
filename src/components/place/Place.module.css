@@ -1,6 +1,7 @@
 .subtitle {
     font-size: 3rem;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .city{
@@ -13,4 +14,10 @@
 .icon {
     height: 12rem;
     width: 12rem;
+}
+
+@media (max-width: 500px) {
+    .subtitle {
+        font-size: 2rem;
+    }
 }
