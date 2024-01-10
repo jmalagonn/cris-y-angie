@@ -13,7 +13,7 @@ export const MoreInfo = () => {
             <Image src={suitIcon} alt="traje" className="icon" />
             <div className={styles.textInfo}>
               <p className={styles.p}><b>Hombres:</b> traje formal y tenis blancos.</p>
-              <p className={styles.p}><b>Mujeres:</b> vestido de un solo tono.</p>
+              <p className={styles.p}><b>Mujeres:</b> vestido de un solo tono<br /> (Reservamos color blanco y negro).</p>
             </div>
           </div>
           <div>
