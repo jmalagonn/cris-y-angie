@@ -19,21 +19,38 @@
 }
 
 .countDown div {
-    margin: 0 2rem;
+    margin: 2rem .5rem 1rem .5rem;
+    background-color: rgba(0,0,0,.1);
+    min-width: 5.5rem;
+    padding: .5rem;
 }
 
 .countDown div .number {
     font-size: 4rem;
     font-weight: bold;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 0rem;
+    margin-bottom: .5rem;
     text-align: center;
+    color:rgb(172,140,104);
 }
 
 .countDown div .label {
+    margin-top: .5rem;
     font-size: 1rem;
     text-align: center;
     font-style: italic;
+}
+
+.content {
+    margin: 1.5rem 0 1rem 0;
+}
+
+.content p {
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
 }
 
 @media (max-width: 500px) {
@@ -49,11 +66,15 @@
         font-size: 2.25rem;
     }
 
-    .countDown div {
-        margin: 0 1rem;
+    .content p {
+        font-size: 2rem;
     }
 
     .countDown div .number {
         font-size: 3rem;
+    }
+
+    .countDown div {
+        min-width: 3.5rem;
     }
 }

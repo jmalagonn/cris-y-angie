@@ -3,7 +3,7 @@ import calendar from "@/assets/images/calendar.svg";
 import styles from "./DateSection.module.css";
 import { useEffect, useState } from "react";
 
-const marriageDate = new Date("2024-03-27T12:00:00.000-05:00");
+const marriageDate = new Date("2024-03-27T16:30:00.000-05:00");
 const currentDate = new Date();
 const remainingMs = marriageDate.getTime() - currentDate.getTime();
 
@@ -32,7 +32,10 @@ export const DateSection = () => {
     <section id="save-the-date" className="section">
       <h1 className={`${styles.title} ${styles.main} special-font blue  `}>Fecha</h1>
       <Image src={calendar} alt="calendar" className={styles.calendar} />
-      <h1 className={`${styles.subtitle} yellow`}>23 de marzo de 2024</h1>
+      <div className={styles.content}>
+        <p>Sábado, 23 de marzo</p>
+        <p>4:30 P.M.</p>
+      </div>
       <div className={styles.countDown}>
         <div>
           <p className={`${styles.number}`}>{getDays()}</p>
