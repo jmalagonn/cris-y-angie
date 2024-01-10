@@ -29,7 +29,7 @@ body {
 }
 
 .section .button {
-  background-color: black;
+  background-color: rgb(172,140,104);;
   color: white;
   text-decoration: none;
   padding: 1rem 1rem;
@@ -37,4 +37,12 @@ body {
 
 .special-font {
   font-family: 'Dancing Script', cursive;
+}
+
+.blue {
+  color: rgb(64,107,134);
+}
+
+.yellow {
+  color: rgb(172,140,104);
 }

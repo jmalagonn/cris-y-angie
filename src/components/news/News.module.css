@@ -5,6 +5,7 @@
 .title {
     font-size: 5rem;
     margin: 0;
+    color: rgb(64,107,134);
 }
 
 .collage {
@@ -12,8 +13,27 @@
     max-height: 70vh;
 }
 
+.p {
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.p span {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(172,140,104);
+    display: inline-block;
+    margin-top: .5rem;
+    font-size: 3rem;
+}
+
 @media (max-width: 500px) {
     .title {
         font-size: 3rem;
+    }
+
+    .collage {
+        max-height: 60vh;
     }
   }

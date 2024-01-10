@@ -9,15 +9,15 @@ export const MoreInfo = () => {
       <div className={styles.container}>
         <div className={styles.row}>
           <div>
-            <h1 className={`${styles.sectionTitle} title`}>Dress Code</h1>
+            <h1 className={`${styles.sectionTitle} title special-font blue`}>Dress Code</h1>
             <Image src={suitIcon} alt="traje" className="icon" />
             <div className={styles.textInfo}>
-              <p className={styles.p}>Hombres: traje formal y tenis blancos.</p>
-              <p className={styles.p}>Mujeres, vestido de un solo tono.</p>
+              <p className={styles.p}><b>Hombres:</b> traje formal y tenis blancos.</p>
+              <p className={styles.p}><b>Mujeres:</b> vestido de un solo tono.</p>
             </div>
           </div>
           <div>
-            <h1 className={`${styles.sectionTitle} title`}>Regalo</h1>
+            <h1 className={`${styles.sectionTitle} title special-font yellow`}>Regalo</h1>
             <Image src={giftIcon} alt="regalo" className="icon" />
             <div className={styles.textInfo}>
               <p className={styles.p}>Lluvia de sobres</p>
@@ -25,7 +25,7 @@ export const MoreInfo = () => {
           </div>
         </div>
       </div>
-      <h1 className={`${styles.specialText} title special-font`}>¡Los esperamos!</h1>
+      <h1 className={`${styles.specialText} title special-font blue`}>¡Los esperamos!</h1>
     </section>
   );
 };

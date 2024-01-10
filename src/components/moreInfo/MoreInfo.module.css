@@ -32,6 +32,7 @@
 .textInfo .p {
     font-size: 1.5rem;
     margin: 0;
+    font-style: italic;
 }
 
 @media (max-width: 500px) {
@@ -58,6 +59,6 @@
     }
 
     .specialText {
-        font-size: 3rem;
+        font-size: 3rem !important;
     }
 }
