@@ -4,6 +4,7 @@ import DateSection from '../components/dateSection/DateSection'
 import News from '../components/news/News'
 import Place from '../components/place/Place'
 import MoreInfo from '../components/moreInfo/MoreInfo'
+import Confirmation from '../components/confirmation/Confirmation'
 import styles from "../styles/index.module.css"
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <main>
         <Banner />
         <section className={styles.content}>
+          <Confirmation />
           <News />
           <DateSection />
           <Place />

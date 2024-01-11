@@ -1,0 +1,11 @@
+.link {
+    position: fixed;
+    z-index: 1;
+    bottom: .5rem;
+    right: .5rem;
+    display: inline-block;
+    background-color: rgba(64,107,134,.8);
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+}
