@@ -3,7 +3,7 @@ import calendar from "@/assets/images/calendar.svg";
 import styles from "./DateSection.module.css";
 import { useEffect, useState } from "react";
 
-const marriageDate = new Date("2024-03-23T15:30:00.000-05:00");
+const marriageDate = new Date("2024-03-23T15:00:00.000-05:00");
 const currentDate = new Date();
 const remainingMs = marriageDate.getTime() - currentDate.getTime();
 
@@ -34,7 +34,7 @@ export const DateSection = () => {
       <Image src={calendar} alt="calendar" className={styles.calendar} />
       <div className={styles.content}>
         <p>Sábado, 23 de marzo</p>
-        <p>4:30 P.M.</p>
+        <p>3:00 P.M.</p>
       </div>
       <div className={styles.countDown}>
         <div>
