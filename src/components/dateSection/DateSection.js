@@ -3,7 +3,7 @@ import calendar from "@/assets/images/calendar.svg";
 import styles from "./DateSection.module.css";
 import { useEffect, useState } from "react";
 
-const marriageDate = new Date("2024-03-27T16:30:00.000-05:00");
+const marriageDate = new Date("2024-03-23T15:30:00.000-05:00");
 const currentDate = new Date();
 const remainingMs = marriageDate.getTime() - currentDate.getTime();
 
